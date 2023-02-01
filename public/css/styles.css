@@ -1,0 +1,80 @@
+body{
+    height: 512px;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.navbar-brand{
+    color: #1abc9c;
+}
+
+.footer-padding {
+	padding-bottom: 570px;
+}
+
+.footer {
+	position: relative;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+    
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+    color: #fff;
+}
+
+.post{
+    background-color: rgba(255, 255, 255, 0.623);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px black;
+    padding: 1%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+.post:hover{
+    box-shadow: 0px 6px 12px black;
+    transform: translate3d(0px, -2px, 0px);
+    transition: 0.5s all;
+}
+
+.post h2{
+    color: #1abc9c;
+    margin-bottom: 2%;
+}
+
+.post p{
+    font-size: 20px;
+}
+
+.post footer{
+    font-size: 1em;
+}
+
+.postPage p{
+    font-size: 20px;
+    display: block;
+}
+
+.postPage h1{
+    color:#1abc9c;
+}
